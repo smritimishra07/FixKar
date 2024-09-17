@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {createProfile, updateProfile, deleteProfile} = require('../Controllers/authController');
+const {createProfile, updateProfile, deleteProfile} = require('../controllers/authController');
 
 
 
